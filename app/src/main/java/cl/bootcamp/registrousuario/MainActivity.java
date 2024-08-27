@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
                     Toast.makeText(MainActivity.this, "Por favor complete todos los campos", Toast.LENGTH_SHORT).show();
                 } else {
                     // Si están completos, mostramos el mensaje de bienvenida
-                    String welcomeMessage = =  "¡Hola " + name +
+                    String welcomeMessage =  "¡Hola " + name +
                             " " + lastName +" "+ "Email: " + email  +" "+
                             "Contraseña: " + pass;
                     Toast.makeText(MainActivity.this, welcomeMessage, Toast.LENGTH_LONG).show();
